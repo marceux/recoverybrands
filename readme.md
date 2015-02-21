@@ -16,6 +16,17 @@ Download the code into a directory.  From the command line run the following com
 This will install all of the dependencies needed to run the test.
 
 ### Running the Test
+First, open up `.env.example` and edit the following environmental variables with your config data.
+
+```
+TARGETURL=   # Target URL 
+JSONUSER=    # JSON User
+JSONPASS=    # JSON Pass
+
+HOMELAT=  # Latitude
+HOMELNG=  # Longitude
+```
+
 Go into the source directory and run the following PHP command.
 
 `php artisan serve`
